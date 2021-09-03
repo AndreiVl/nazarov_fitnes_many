@@ -1,0 +1,18 @@
+.module-order-price {
+	/* 2 Block model */
+	display: inline-block;
+	margin: 0;
+	margin-right: 16px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 43px;
+	color: #f96666;
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 36px;
+		line-height: 49px;
+	}
+}

@@ -1,0 +1,58 @@
+.footer {
+	/* 2 Block model */
+	padding-top: 69px;
+	padding-bottom: 63px;
+
+	/* 3 Typography */
+	text-align: center;
+
+	/* 4 Visual */
+	border-top: 1px solid #484848;
+}
+.footer--desc {
+	/* 2 Block model */
+	padding-top: 58px;
+	padding-bottom: 66px;
+
+	/* 4 Visual */
+	border: none;
+}
+.footer--desc .link {
+	/* 3 Typography */
+	color: $color-white;
+}
+.footer .link:first-child {
+	/* 3 Typography */
+	color: $color-white;
+}
+
+.footer--in {
+	/* 2 Block model */
+	padding: 20px 0;
+
+	/* 3 Typography */
+	text-align: left;
+	color: #ffffff;
+
+	@media(min-width: 992px) {
+		/* 2 Block model */
+		padding: 40px 0;
+	}
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */
+
+.footer__text .text {
+	/* 3 Typography */
+	font-size: 14px;
+	line-height: 22px;
+}

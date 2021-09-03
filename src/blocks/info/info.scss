@@ -1,0 +1,165 @@
+.info {
+	/* 2 Block model */
+	margin-bottom: 50px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 120px;
+	}
+}
+.info .h2 {
+	/* 2 Block model */
+	margin-bottom: 45px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 70px;
+	}
+}
+.info__body {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		flex-direction: row;
+		margin-bottom: 60px;
+	}
+}
+.info__img {
+	/* 2 Block model */
+	width: 100%;
+	max-width: 569px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 60px;
+
+		/* 4 Visual */
+		background-color: $color-black200;
+		border: 3px solid $color-blue;
+	}
+	@media (min-width: 992px) {
+		/* 1 Positioning */
+		position: relative;
+
+		/* 2 Block model */
+		max-width: 440px;
+		margin: 0;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		max-width: 480px;
+	}
+	@media (min-width: 1400px) {
+		/* 2 Block model */
+		max-width: 569px;
+	}
+}
+.info__img img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+	max-width: 569px;
+	@media (min-width: 768px) {
+		/* 1 Positioning */
+		position: relative;
+		top: 36px;
+		left: 39px;
+	}
+}
+.info .text {
+	/* 2 Block model */
+	margin-bottom: 13px;
+}
+.info__body .lead {
+	/* 2 Block model */
+	margin-bottom: 21px;
+}
+.info .text:last-child {
+	/* 2 Block model */
+	margin-bottom: 0;
+}
+.info__lead {
+	/* 2 Block model */
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+
+	/* 3 Typography */
+	text-align: center;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 120px;
+	}
+}
+.info__bottom {
+	/* 2 Block model */
+	padding-top: 45px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 20px;
+	}
+}
+.info__item {
+	/* 2 Block model */
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	max-width: 255px;
+	padding: 20px 8px 25px 8px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+	/* 4 Visual */
+	border: 11px solid #FFFFFF;
+	border-radius: 26px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
+}
+.info__item img {
+	/* 2 Block model */
+	margin-bottom: 36px;
+}
+.info__item-title {
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 12px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	color: $color-white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.info__item-text {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	color: $color-white;
+	text-align: center;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

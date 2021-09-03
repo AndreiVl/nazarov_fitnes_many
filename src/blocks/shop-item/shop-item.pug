@@ -1,0 +1,24 @@
+mixin shop-item(data)
+	div.shop-item(id=data.id)
+		span.shop-item__calories!=data.calories
+		div.shop-item__body
+			a(href="/"+data.id)
+				img.shop-item__img(src="images/"+data.id+".png" alt=data.title)
+
+
+			a.shop-item__title(href="/"+data.id)!=data.title
+
+			p.shop-item__desc!=data.desc
+
+		div.shop-item__action
+			div.shop-item__price
+				span!=data.price
+				|.00 ₽
+			+btn({text: 'В корзину', type: 'button', data_id: data.id})(class="btn--blue addToCart")
+
+			//- +btn({text: 'В корзину', type: 'link', url: '#modalAddToCart', data_id: data.id})(class="btn--blue addToCart")
+
+		//- a.shop-item__more(href="/"+data.id+".html") Подробнее о товаре 
+
+
+

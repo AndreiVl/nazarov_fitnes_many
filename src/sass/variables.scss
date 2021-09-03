@@ -1,0 +1,53 @@
+/*
+ * Fonts
+ *
+ */
+
+$font-main: "Open Sans", "Helvetica", sans-serif;
+$font-second: "Roboto", "Helvetica", sans-serif;
+
+/*
+ * Colors
+ *
+ */
+$color-black: #000000;
+$color-black200: #1a2345;
+$color-white: #ffffff;
+$color-blue: #00c4ff;
+$color-red: #ff0000;
+$color-green: #76aa6f;
+/*
+ * Grid
+ *
+ */
+$breakpoints: (
+	sm: 480px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+);
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1300px,
+);
+
+/*
+ * Animation Speed
+ *
+ */
+
+$animation-speed: 0.4s;
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

@@ -1,0 +1,12 @@
+div.form
+	form.form__form(id="distributor")
+		div.form__group
+			+input({label_text: 'ФИО', type: 'text', name: 'name_1'})
+		div.form__group
+			+input({label_text: 'Город', type: 'text', name: 'city_1'})
+		div.form__group
+			+input({label_text: 'E-mail', type: 'email', name: 'email_1'})
+		div.form__group
+			+input({label_text: 'Телефон', type: 'tel', name: 'tel_1'})(class="input--phone")
+		div.form__group
+			+btn({text: 'ОТПРАВИТЬ', type: 'link', url: '#modal_accepted'})(class="btn--form modal-link" id="distributorLink")

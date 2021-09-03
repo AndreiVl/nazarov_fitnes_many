@@ -1,0 +1,14 @@
+mixin order-list-item(data)
+	div.order-list-item
+		div.order-list-item__body
+			div.order-list-item__left
+				div.order-list-item__canceling
+					+icon('icon--cross', 'icon--18')
+				div.order-list-item__img
+					img(src="images/"+data.img, alt=data.alt)
+				div.order-list-item__info
+					span.text-14.text-14--black.order-list-item__title!=data.title
+					span.text-14.order-list-item__price!=data.price
+			div.order-list-item__right
+				div.order-list-item__value
+					+quantity({})(class="quantity--sidebar")

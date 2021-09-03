@@ -1,0 +1,126 @@
+.shop-item {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	/* 2 Block model */
+	display: flex;
+	flex: 1 1 100%;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 57px 24px 24px 24px;
+
+	/* 4 Visual */
+	border: 1px solid #f5f5f5;
+	border-radius: 3px;
+
+	/* 5 Animation */
+	transition: all 0.4s ease;
+	&:hover {
+		/* 4 Visual */
+		background-color: #ffffff;
+		box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+	}
+}
+.shop-item__calories {
+	/* 1 Positioning */
+	position: absolute;
+	top: 24px;
+	right: 24px;
+
+	/* 2 Block model */
+	display: inline-block;
+	padding: 5px 10px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: $color-black200;
+
+	/* 4 Visual */
+	background-color: #f0f6ff;
+	border-radius: 4px;
+	transform: translateY(-50%);
+}
+.shop-item__img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+	max-width: 174px;
+	margin: 0 auto;
+	margin-bottom: 22px;
+
+	/* 4 Visual */
+	border-radius: 50%;
+	box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
+}
+.shop-item__title {
+	/* 2 Block model */
+	display: block;
+	margin-bottom: 0;
+	height: 48px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 24px;
+	color: $color-black200;
+	text-decoration: none;
+
+	/* 4 Visual */
+	outline: none;
+	overflow: hidden;
+
+	/* 5 Animation */
+	transition: all 0.4s ease;
+}
+.shop-item__title:hover,
+.shop-item__title:focus,
+.shop-item__title:active {
+	/* 4 Visual */
+	opacity: 0.7;
+}
+.shop-item__desc {
+	/* 2 Block model */
+	height: 65px;
+	margin: 0;
+	margin-bottom: 8px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #717687;
+
+	/* 4 Visual */
+	overflow: hidden;
+}
+.shop-item__action {
+	/* 2 Block model */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: flex-end;
+	width: 100%;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	color: #f96666;
+}
+.shop-item__more {
+	/* 3 Typography */
+	font-size: 15px;
+	line-height: 20px;
+	color: $color-black200;
+}
+.shop-item__more:hover {
+	/* 3 Typography */
+	text-decoration: none;
+}

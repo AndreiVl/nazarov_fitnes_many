@@ -1,0 +1,23 @@
+.btn--outline {
+	/* 3 Typography */
+	color: #fff;	
+
+	/* 4 Visual */
+	background: none;
+	border: 1px solid #ffffff;
+}
+.btn--red-outline {
+	/* 3 Typography */
+	color: #F96666;	
+
+	/* 4 Visual */
+	border: 1px solid #F96666;
+}
+.btn--red-outline:hover {
+	/* 3 Typography */
+	color: #fff;	
+
+	/* 4 Visual */
+	background-color: #F96666;
+	border: 1px solid #F96666;
+}

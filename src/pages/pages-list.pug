@@ -1,0 +1,44 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Список страниц')
+
+	body
+		div.wrapper
+			include ../blocks/mixins.pug
+
+			div.intro-page
+				div.container
+					div.row.justify-content-center
+						div.col-12.col-lg-6
+							div.intro-page__top
+								+logo({img: 'logo.png'})
+							ul.intro-page__list
+								li.intro-page__item
+									a(href="index" target="_blank") Назаров Фитнес
+								li.intro-page__item
+									a(href="description" target="_blank") Описнаие
+								li.intro-page__item
+									a(href="main-store" target="_blank") Первые блюда
+								li.intro-page__item
+									a(href="order" target="_blank") Оформление заказа
+								//- li.intro-page__item
+								//- 	a(href="shop" target="_blank") Магазин
+								li.intro-page__item
+									a(href="borshch_s_mitbolami" target="_blank") Борщ с митболами
+								li.intro-page__item
+									a(href="solyanka_s_mitbolami" target="_blank") Солянка с митболами
+								li.intro-page__item
+									a(href="suplapsha_s_mitbolami" target="_blank") Суп-лапша куриная
+								li.intro-page__item
+									a(href="lagman_s_mitbolami" target="_blank") Лагман с митболами
+								li.intro-page__item
+									a(href="tom_yam_s_fishbolami" target="_blank") Том Ям с фишболами
+								li.intro-page__item
+									a(href="tom_kkha_s_mitbolami" target="_blank") Том Кха с митболами
+								li.intro-page__item
+									a(href="ma_po_tofu_s_farshem" target="_blank") Ма По Тофу с фаршем
+								li.intro-page__item
+									a(href="fo_s_mitbolami" target="_blank") Фо с митболами
+								li.intro-page__item
+									a(href="miso_s_fishbolami" target="_blank") Мисо с фишболами

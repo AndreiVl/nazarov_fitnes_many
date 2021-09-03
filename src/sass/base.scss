@@ -1,0 +1,131 @@
+body {
+	/* 2 Block model */
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #000000;
+
+	/* 4 Visual */
+	background-color: $color-black200;
+}
+p,
+ul {
+	/* 2 Block model */
+	padding: 0;
+	margin: 0;
+}
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+	border: 0;
+	clip-path: inset(100%);
+}
+.wrapper {
+	/* 2 Block model */
+	width: 100%;
+	overflow-x: hidden;
+}
+.scrolled {
+	/* 2 Block model */
+	padding-top: 85px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		padding-top: 84px;
+	}
+}
+.overflow-heidden {
+	/* 2 Block model */
+	overflow: hidden;
+}
+.container--shop {
+	/* 2 Block model */
+	padding: 58px 82px;
+
+	/* 4 Visual */
+	box-shadow: 0px 4px 40px rgba(83, 90, 114, 0.15);
+}
+.container--product-page {
+	/* 2 Block model */
+	padding: 0;
+	max-width: 1180px;
+
+	/* 4 Visual */
+	box-shadow: 0px 4px 40px rgba(83, 90, 114, 0.15);
+}
+.intro-page {
+	/* 2 Block model */
+	height: 100vh;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	/* 4 Visual */
+	background-color: $color-black200;
+}
+.intro-page__top {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.intro-page .logo .icon--logo {
+	/* 2 Block model */
+	width: 190px;
+	height: 87px;
+}
+.intro-page__list {
+	/* 2 Block model */
+	padding: 0;
+	margin: 0;
+
+	/* 4 Visual */
+	list-style: none;
+}
+.intro-page__item {
+	/* 2 Block model */
+	margin-bottom: 15px;
+}
+.intro-page__item a {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+	padding: 12px 20px 10px 20px;
+
+	/* 3 Typography */
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	color: $color-black200;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	/* 4 Visual */
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	border-bottom: 3px solid #ffffff;
+	border-radius: 5px;
+
+	/* 5 Animation */
+	transition: all 0.4s;
+}
+.intro-page__item a:hover {
+	/* 3 Typography */
+	color: #ffffff;
+
+	/* 4 Visual */
+	cursor: pointer;
+	background-color: $color-black200;
+}
